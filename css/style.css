@@ -1,0 +1,123 @@
+body {
+    font-family: 'Brush Script MT', cursive;
+    background-color: #9AD0C2;
+    margin: 0;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+
+    height: 10vh;
+    width: 100vw;
+
+    background-color: #265073;
+
+    justify-content: right;
+    align-items: center;
+}
+
+.navbar > a {
+    text-decoration: none;
+    color: #F1FADA;
+
+    /* fix centering these elements */
+    font-size: 3.5vh;
+    padding-right: 5%;
+}
+
+.title {
+    margin-top: -24px;
+
+    position: relative;
+    height: 10vh;
+    width: 100vw;
+    background-color: #2D9596;
+    color: #F1FADA;
+    font-size: 2vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo > p {
+    margin: 3vh 10vw;
+}
+
+.products-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2vh;
+    position: relative;
+    padding: 2vh;
+    word-wrap: break-word;
+}
+
+.product {
+    text-align: center;
+    position: relative;
+    background-color: #2D9596;
+    padding: 20px;
+    display: block;
+    border: 0.7vh solid#265073;
+}
+.product-title {
+    background-color: #265073;
+    color: #F1FADA;
+    padding-bottom: 3vh;
+    display: flex;
+    justify-content: center;
+}
+
+.product img {
+    height: 25vh;
+    width: 25vw;
+}
+
+.product-detail {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3vh;
+}
+
+.product-detail > div {
+    border-radius: 10%;
+}
+ 
+.product-description {
+    background-color: #265073;
+    color: #F1FADA;
+    font-style: italic;
+    font-size: 0.9em;
+    max-width: 10vw;
+   
+    padding: 1vw;
+}
+
+.product-payment {
+    background-color: #265073;
+    color: #F1FADA;
+    max-width: 8vw;
+    padding: 1vh 2vw;
+}
+
+.purchase-product {
+    background-color: #9AD0C2;
+    color: #265073;
+    border:none;
+    border-radius:10px;
+}
+
+.purchase-product:hover {
+    background-color: #F1FADA;
+    color:  #2D9596;
+    border:none;
+    border-radius:10px;
+}
